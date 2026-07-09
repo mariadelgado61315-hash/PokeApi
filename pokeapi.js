@@ -39,7 +39,7 @@ async function obtenerPokemon() {
       const url_imagen = `https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/${idPokemon}.png`;
       //Crear contenedor de la tarjeta del pokemon
       const tarjeta = document.createElement("div");
-      tarjeta.className = "bg-red-800 border border-red-700 p-4 text-center";
+      tarjeta.className = "bg-red-300 border border-red-700 p-4 text-center";
 
       //Crear la etiqueta de la imagen
       const imagen = document.createElement("img");
